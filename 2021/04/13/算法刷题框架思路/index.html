@@ -21,17 +21,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://example.com/categories/index.html">
+  <meta name="description" content="读labuladong的刷题所记笔记，第一篇算法框架思想">
+<meta property="og:type" content="article">
+<meta property="og:title" content="算法刷题框架思路">
+<meta property="og:url" content="http://example.com/2021/04/13/%E7%AE%97%E6%B3%95%E5%88%B7%E9%A2%98%E6%A1%86%E6%9E%B6%E6%80%9D%E8%B7%AF/index.html">
 <meta property="og:site_name" content="Einsam&#39;s blog">
+<meta property="og:description" content="读labuladong的刷题所记笔记，第一篇算法框架思想">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-13T10:07:59.000Z">
-<meta property="article:modified_time" content="2021-04-13T10:09:09.974Z">
+<meta property="article:published_time" content="2021-04-13T13:16:49.000Z">
+<meta property="article:modified_time" content="2021-04-13T13:24:56.902Z">
 <meta property="article:author" content="Einsam">
+<meta property="article:tag" content="算法">
+<meta property="article:tag" content="刷题">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/categories/">
+<link rel="canonical" href="http://example.com/2021/04/13/%E7%AE%97%E6%B3%95%E5%88%B7%E9%A2%98%E6%A1%86%E6%9E%B6%E6%80%9D%E8%B7%AF/">
 
 
 <script id="page-configurations">
@@ -39,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>categories | Einsam's blog
-</title>
+  <title>算法刷题框架思路 | Einsam's blog</title>
   
 
 
@@ -157,51 +160,125 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/13/%E7%AE%97%E6%B3%95%E5%88%B7%E9%A2%98%E6%A1%86%E6%9E%B6%E6%80%9D%E8%B7%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Einsam">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Einsam's blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          算法刷题框架思路
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">categories
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2021-04-13 21:16:49 / 修改时间：21:24:56" itemprop="dateCreated datePublished" datetime="2021-04-13T21:16:49+08:00">2021-04-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">算法学习</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>948</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+            <div class="post-description">读labuladong的刷题所记笔记，第一篇算法框架思想</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="学习算法的思路"><a href="#学习算法的思路" class="headerlink" title="学习算法的思路"></a>学习算法的思路</h1><h2 id="数据结构的存储方式"><a href="#数据结构的存储方式" class="headerlink" title="数据结构的存储方式"></a>数据结构的存储方式</h2><p><strong>数据结构的存储方式只有数组（顺序存储）和链表（链式存储）</strong></p>
+<p><strong>数组</strong>由于连续紧凑存储，可以随机访问，可以通过索引快速找到对应的元素，相对节约存储空间。由于连续存储，需要一次性分配内存空间，如果要扩容，需要重新分配一块更大的空间再把数据全部复制过去，时间复杂度O(N)；如果需要在数组中间进行插入和删除，每次都要移动后面所有的数据以保持连续，时间复杂度O(N)。</p>
+<p><strong>链表</strong>元素不连续，依靠指针指向下一个元素的位置，因此不存在数组扩容问题。删除和插入新元素要知道某一元素的前驱和后继，时间复杂度O(1)。但是因为存储空间不连续，无法根据一个索引计算出对应元素的地址，所以不能随机访问；而且每个元素必须存储指向其他元素位置的指针，会消耗更对的存储空间。</p>
+<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>增删改查</p>
+<p>数组遍历结构：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; arr.length; i++)&#123;<br>	<span class="hljs-comment">// 迭代访问arr[i]</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>链表遍历框架，具有迭代和递归结构：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ListNode</span></span>&#123; <span class="hljs-comment">// 单链表基本节点</span><br>	<span class="hljs-keyword">int</span> val;<br>	ListNode next;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">traverse</span><span class="hljs-params">(ListNode head)</span></span>&#123;<br>	<span class="hljs-keyword">for</span>(ListNode p = head; p != <span class="hljs-keyword">null</span>; p = p.next)&#123;<br>		<span class="hljs-comment">//迭代访问 p.val</span><br>	&#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">traverse</span><span class="hljs-params">(ListNode head)</span></span>&#123;<br>	<span class="hljs-comment">//递归访问head.val</span><br>	traverse(head.next);<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>链表的递归遍历 -&gt; 二叉树的递归遍历 -&gt; N叉树的递归遍历 -&gt; 图的遍历</p>
+<p>N叉树递归遍历框架：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TreeNode</span> </span>&#123;<br>	<span class="hljs-keyword">int</span> val;<br>	TreeNode[] children;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">traverse</span><span class="hljs-params">(TreeNode root)</span></span>&#123;<br>	<span class="hljs-keyword">for</span>(TreeNode child : root.children)&#123;<br>		traverse(child);<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>二叉树遍历框架：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">traverse</span><span class="hljs-params">(TreeNode root)</span></span>&#123;<br>	<span class="hljs-comment">// 前序遍历</span><br>	traverse(root.left);<br>	<span class="hljs-comment">// 中序遍历</span><br>	traverse(root.right);<br>	<span class="hljs-comment">// 后序遍历</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag"># 算法</a>
+              <a href="/tags/%E5%88%B7%E9%A2%98/" rel="tag"># 刷题</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/04/13/%E6%AF%95%E8%AE%BE%E8%AF%BB%E8%AE%BA%E6%96%87/" rel="prev" title="毕设读论文">
+      <i class="fa fa-chevron-left"></i> 毕设读论文
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 2 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AC%E7%A7%91/">本科</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/">算法学习</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -252,6 +329,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%9A%84%E6%80%9D%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">学习算法的思路</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%AD%98%E5%82%A8%E6%96%B9%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">数据结构的存储方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">基本操作</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
