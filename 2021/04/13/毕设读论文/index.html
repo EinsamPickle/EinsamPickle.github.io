@@ -53,7 +53,7 @@ gtag('config', 'xx-xxxxxxx-xx');</script><link rel="stylesheet" href="/css/tocbo
 </ul>
 <h3 id="Q-learning算法：动作值函数"><a href="#Q-learning算法：动作值函数" class="headerlink" title="Q-learning算法：动作值函数"></a>Q-learning算法：动作值函数</h3><p>Input：状态和动作</p>
 <p>output：在该状态下执行该动作的未来奖励期望</p>
-<p><img src="https://image.jiqizhixin.com/uploads/editor/3a00dfc2-7dc5-4308-af90-408a8b1775dd/1523944473809.jpg" alt="img"></p>
+<p><img src="https://tva2.sinaimg.cn/large/68364207ly1gpi9ewnlmwj20u005l757.jpg" alt="1523944473809"></p>
 <p>在探索环境之前，Q-Table会给出相同的任意的设定值，随着持续探索，Q-Table会通过迭代使用<strong>Bellmen方程</strong>更新Q(s,a)给出越来越好的近似。</p>
 <p>Q-learning伪代码：</p>
 <ol>
@@ -73,7 +73,7 @@ gtag('config', 'xx-xxxxxxx-xx');</script><link rel="stylesheet" href="/css/tocbo
 </li>
 <li><p>采用动作a并观察输出的状态s’和奖励r。</p>
 </li>
-<li><p>使用Bellmen方程去更新Q(s，a)：<img src="https://image.jiqizhixin.com/uploads/editor/388c9bac-73cd-4e5c-8ddf-a2fcb240fd2a/1523944474532.jpg" alt="img"></p>
+<li><p>使用Bellmen方程去更新Q(s，a)：<img src="https://tva3.sinaimg.cn/large/68364207ly1gpi9fll43gj20u0064jti.jpg" alt="1523944474532"></p>
 <figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">Q（状态，动作）= R（状态，动作）+ Gamma *max[ Q（下一个状态，所有动作）] // 此学习率设为1<br></code></pre></td></tr></table></figure></li>
 </ol>
 <p>可以将学习率看作网络有多块的抛弃旧值、生成新值的度量。学习率为1代表信的估计值会成为新的Q值，完全抛弃旧值。γ越接近1代表越看重后续状态的价值，越接近0就越考虑当前的利益。</p>
